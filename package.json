@@ -1,0 +1,24 @@
+{
+  "name": "EZOPS_CODING_CHALLENGE",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "db:init": "dropdb --if-exists titatnic_survivors_db && createdb titatnic_survivors_db",
+    "db:reset": "node resetDb.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.2",
+    "pg": "^7.12.1",
+    "sequelize": "^5.18.4"
+  }
+}
