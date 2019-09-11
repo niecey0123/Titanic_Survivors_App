@@ -1,7 +1,7 @@
 const Sequelize = require("sequelize");
 
 const db = new Sequelize({
-  database: "titatnic_survivors_db",
+  database: "titanic_survivors_db",
   dialect: "postgres",
   define: {
     underscored: true,

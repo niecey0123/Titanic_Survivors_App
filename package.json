@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js",
-    "db:init": "dropdb --if-exists titatnic_survivors_db && createdb titatnic_survivors_db",
+    "db:init": "dropdb --if-exists titanic_survivors_db && createdb titanic_survivors_db",
     "db:reset": "node resetDb.js"
   },
   "keywords": [],
